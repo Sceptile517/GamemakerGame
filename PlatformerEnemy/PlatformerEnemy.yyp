@@ -21,6 +21,7 @@
     {"id":{"name":"BulletRight","path":"sprites/BulletRight/BulletRight.yy",},"order":10,},
     {"id":{"name":"DownTeleporter","path":"sprites/DownTeleporter/DownTeleporter.yy",},"order":19,},
     {"id":{"name":"spr_snowman_melt","path":"sprites/spr_snowman_melt/spr_snowman_melt.yy",},"order":4,},
+    {"id":{"name":"Level4","path":"rooms/Level4/Level4.yy",},"order":3,},
     {"id":{"name":"Jump","path":"sprites/Jump/Jump.yy",},"order":16,},
     {"id":{"name":"spr_fire_enemy","path":"sprites/spr_fire_enemy/spr_fire_enemy.yy",},"order":0,},
     {"id":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"order":0,},
@@ -60,9 +61,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
+    {"roomId":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
+    {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":2,},

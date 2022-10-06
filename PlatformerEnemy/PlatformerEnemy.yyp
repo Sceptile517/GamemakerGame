@@ -32,7 +32,7 @@
     {"id":{"name":"TallBuildingA","path":"sprites/TallBuildingA/TallBuildingA.yy",},"order":6,},
     {"id":{"name":"ShortBuildingB","path":"sprites/ShortBuildingB/ShortBuildingB.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":4,},
-    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
+    {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},"order":0,},
     {"id":{"name":"obj_foe","path":"objects/obj_foe/obj_foe.yy",},"order":5,},
     {"id":{"name":"Idle","path":"sprites/Idle/Idle.yy",},"order":14,},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":0,},
@@ -58,7 +58,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":2,},

@@ -24,6 +24,7 @@
     {"id":{"name":"spr_fire_enemy","path":"sprites/spr_fire_enemy/spr_fire_enemy.yy",},"order":0,},
     {"id":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"order":0,},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":1,},
+    {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":1,},
     {"id":{"name":"MoveCollide","path":"scripts/MoveCollide/MoveCollide.yy",},"order":1,},
     {"id":{"name":"MoveRight_png","path":"sprites/MoveRight_png/MoveRight_png.yy",},"order":18,},
     {"id":{"name":"GunEnemy","path":"sprites/GunEnemy/GunEnemy.yy",},"order":11,},
@@ -58,6 +59,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "Folders": [

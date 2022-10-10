@@ -25,7 +25,7 @@ if L_hold{												// if pressing A..
 }else{		
 	//if not pressing either direction..
     if grounded{
-		hspd = lerp(hspd, 0, .05)						//..and on the ground.. slow me
+		hspd = lerp(hspd, 0, .09)						//..and on the ground.. slow me
         sprite_index= my_spr_idle					//..show idle animation!
     }
 }
@@ -62,6 +62,41 @@ if grounded {							// if player is touching the ground or platform
         sprite_index= my_spr_fall
     }
 }
+
+
+if collision_circle(x+(sprite_width/3),y-(sprite_height/2), (sprite_width/5),obj_collidable,false,true){
+	if !wall_jump {
+		if !grounded {
+			if jump_pressed {
+				//audio_play_sound(snd_test,0,false)
+				jumps_spent = 0
+				wall_jump = true
+				if image_xscale = -1{
+					hspd = hspd_max/2
+					R_hold = true
+					L_hold = false
+				}else{
+					hspd = -hspd_max/2
+					L_hold = true
+					R_hold = false
+				}
+			}
+			
+		}
+	}
+	
+}
+if !collision_circle(x+(sprite_width/3),y-(sprite_height/2), (sprite_width/5),obj_collidable,false,true){
+	if wall_jump {
+		wall_jump = false
+		L_hold = false
+		R_hold = false
+	}
+}
+if grounded{
+	wall_jump = false
+}
+
 
 if jump_pressed
 and jumps_spent < num_jump {			//check for jump key only if we have jumps left to use

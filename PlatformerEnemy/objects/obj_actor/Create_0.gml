@@ -36,3 +36,5 @@ action_1_released = false
 action_1_hold = false
 
 bumped_into_something = false
+
+wall_jump = true

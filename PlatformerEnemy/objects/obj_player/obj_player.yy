@@ -3,13 +3,16 @@
   "resourceVersion": "1.0",
   "name": "obj_player",
   "spriteId": {
-    "name": "spr_snowman_idle",
-    "path": "sprites/spr_snowman_idle/spr_snowman_idle.yy",
+    "name": "Idle",
+    "path": "sprites/Idle/Idle.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "Idle",
+    "path": "sprites/Idle/Idle.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_actor",

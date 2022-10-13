@@ -10,7 +10,7 @@ event_inherited();
 my_spr_idle = Idle
 my_spr_walk = MoveRight_png
 my_spr_jump = Jump
-my_spr_fall = spr_snowman_fall
+my_spr_fall = Jump
 
 hspd_max = 5			// maximum left/right speed
 //accel = .1				// left/right movement acceleration
@@ -20,3 +20,4 @@ grav_amt= .1	// strength of downward force
 //num_jump = 1			// number of jumps before needing to touch ground
 jump_pressed_timer = 0	// number of frames to save the "jump" input, aka "input caching"
 coyote_time = 2			// number of frames before you fall when stepping off platform
+deceleration = 0.125

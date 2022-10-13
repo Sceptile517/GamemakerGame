@@ -25,7 +25,7 @@ if L_hold{												// if pressing A..
 }else{		
 	//if not pressing either direction..
     if grounded{
-		hspd = lerp(hspd, 0, .09)						//..and on the ground.. slow me
+		hspd = lerp(hspd, 0, deceleration)						//..and on the ground.. slow me
         sprite_index= my_spr_idle					//..show idle animation!
     }
 }

@@ -12,6 +12,7 @@
     {"id":{"name":"spr_snowman_idle","path":"sprites/spr_snowman_idle/spr_snowman_idle.yy",},"order":0,},
     {"id":{"name":"ActiveTeleporter","path":"sprites/ActiveTeleporter/ActiveTeleporter.yy",},"order":14,},
     {"id":{"name":"ShortBuildingA","path":"sprites/ShortBuildingA/ShortBuildingA.yy",},"order":4,},
+    {"id":{"name":"Obj_Crystal","path":"sprites/Obj_Crystal/Obj_Crystal.yy",},"order":14,},
     {"id":{"name":"spr_snowman_jump","path":"sprites/spr_snowman_jump/spr_snowman_jump.yy",},"order":1,},
     {"id":{"name":"RunningEnemy","path":"sprites/RunningEnemy/RunningEnemy.yy",},"order":12,},
     {"id":{"name":"spr_shot","path":"sprites/spr_shot/spr_shot.yy",},"order":21,},

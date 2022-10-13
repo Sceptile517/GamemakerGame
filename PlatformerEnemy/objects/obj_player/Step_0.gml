@@ -43,16 +43,28 @@ action_1_pressed = false
 action_1_released = false
 
 
+
 if collision_circle(x,y,12,obj_shot,false,true){
 	
 	room_restart()
 
 }
 
-if collision_circle(x,y,12,obj_teleporter,false,true){
+if collision_circle(x,y,12,obj_Crystal,false,true){
+	
+	whatCrystal = instance_nearest(x,y,obj_Crystal)
+	instance_destroy(whatCrystal)
 
-	room_goto_next()
+}
 
+howManyCrystal = instance_number(obj_Crystal)
+
+if howManyCrystal <= 0 {
+	if collision_circle(x,y,12,obj_teleporter,false,true){
+
+		room_goto_next()
+
+	}
 }
 
 if keyboard_check_pressed(vk_left){

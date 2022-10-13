@@ -33,6 +33,7 @@
     {"id":{"name":"Crystal_Sprite","path":"sprites/Crystal_Sprite/Crystal_Sprite.yy",},"order":8,},
     {"id":{"name":"Jump","path":"sprites/Jump/Jump.yy",},"order":3,},
     {"id":{"name":"obj_shooterR","path":"objects/obj_shooterR/obj_shooterR.yy",},"order":11,},
+    {"id":{"name":"Object10","path":"objects/Object10/Object10.yy",},"order":15,},
     {"id":{"name":"spr_fire_enemy","path":"sprites/spr_fire_enemy/spr_fire_enemy.yy",},"order":0,},
     {"id":{"name":"Level9","path":"rooms/Level9/Level9.yy",},"order":11,},
     {"id":{"name":"Level8","path":"rooms/Level8/Level8.yy",},"order":7,},

@@ -49,23 +49,11 @@ if collision_circle(x,y,12,obj_shot,false,true){
 
 }
 
-if collision_circle(x,y,16,obj_collectable,false,true){
-	
-	whichCollectable = instance_nearest(x,y,obj_collectable)
-	instance_destroy(whichCollectable)
+if collision_circle(x,y,12,obj_teleporter,false,true){
+
+	room_goto_next()
 
 }
-
-collectableNum = instance_number(obj_collectable)
-
-if collectableNum <= 0{
-	if collision_circle(x,y,12,obj_teleporter,false,true){
-
-		room_goto_next()
-
-	}
-}
-
 
 if keyboard_check_pressed(vk_left){
 	room_goto_previous()

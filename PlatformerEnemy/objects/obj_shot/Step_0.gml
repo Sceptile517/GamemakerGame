@@ -4,11 +4,11 @@
 
 if leftRight = false {
 
-	xspd = 1
+	xspd = 2
 
 }else{
 
-	xspd = -1
+	xspd = -2
 
 }
 

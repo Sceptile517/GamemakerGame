@@ -88,6 +88,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Level9","path":"rooms/Level9/Level9.yy",},},
+    {"roomId":{"name":"Level8","path":"rooms/Level8/Level8.yy",},},
     {"roomId":{"name":"Level7","path":"rooms/Level7/Level7.yy",},},
     {"roomId":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
     {"roomId":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
@@ -100,8 +102,6 @@
     {"roomId":{"name":"Level12","path":"rooms/Level12/Level12.yy",},},
     {"roomId":{"name":"Level11","path":"rooms/Level11/Level11.yy",},},
     {"roomId":{"name":"Level10","path":"rooms/Level10/Level10.yy",},},
-    {"roomId":{"name":"Level8","path":"rooms/Level8/Level8.yy",},},
-    {"roomId":{"name":"Level9","path":"rooms/Level9/Level9.yy",},},
     {"roomId":{"name":"Level13","path":"rooms/Level13/Level13.yy",},},
   ],
   "Folders": [

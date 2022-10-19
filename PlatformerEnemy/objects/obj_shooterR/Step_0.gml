@@ -23,7 +23,7 @@ if isShooting{
 	}
 }
 
-if distance_to_object(obj_player) <= 50{
+if distance_to_object(obj_player) <= 80{
 	isShooting = true
 }else{
 	isShooting = false

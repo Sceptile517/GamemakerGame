@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-rateFire += 0
+rateFire += 1.5
 
 if rateFire >= fireMax{
 

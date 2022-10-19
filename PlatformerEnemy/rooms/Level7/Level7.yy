@@ -17,7 +17,6 @@
   ],
   "layers": [
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_3575B682","spriteId":{"name":"DownTeleporter","path":"sprites/DownTeleporter/DownTeleporter.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.5625,"scaleY":1.28125,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":976.0,"y":305.5,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4B797D0E","spriteId":{"name":"obj_Crystal","path":"sprites/obj_Crystal/obj_Crystal.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":139.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4548B28","spriteId":{"name":"obj_Crystal","path":"sprites/obj_Crystal/obj_Crystal.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":233.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_653E046C","spriteId":{"name":"obj_Crystal","path":"sprites/obj_Crystal/obj_Crystal.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":349.0,},
@@ -55,6 +54,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_166F7CF5","properties":[],"isDnd":false,"objectId":{"name":"obj_shooterR","path":"objects/obj_shooterR/obj_shooterR.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.71875,"scaleY":0.8125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":205.87408,"y":248.04605,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17F9EEBE","properties":[],"isDnd":false,"objectId":{"name":"obj_shooterR","path":"objects/obj_shooterR/obj_shooterR.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.703125,"scaleY":0.8735609,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":496.0,"y":242.04605,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62DB13D3","properties":[],"isDnd":false,"objectId":{"name":"obj_shooterR","path":"objects/obj_shooterR/obj_shooterR.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.55386925,"scaleY":0.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":506.0,"y":530.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_25E87FFE","properties":[],"isDnd":false,"objectId":{"name":"obj_teleporter","path":"objects/obj_teleporter/obj_teleporter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.6718749,"scaleY":1.357935,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":974.0,"y":303.54608,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
@@ -92,6 +92,7 @@
     {"name":"inst_166F7CF5","path":"rooms/Level7/Level7.yy",},
     {"name":"inst_17F9EEBE","path":"rooms/Level7/Level7.yy",},
     {"name":"inst_62DB13D3","path":"rooms/Level7/Level7.yy",},
+    {"name":"inst_25E87FFE","path":"rooms/Level7/Level7.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

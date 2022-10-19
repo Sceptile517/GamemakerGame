@@ -17,7 +17,6 @@
   ],
   "layers": [
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1023E397","spriteId":{"name":"DownTeleporter","path":"sprites/DownTeleporter/DownTeleporter.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.84375,"scaleY":1.125,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":101.0,"y":264.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1B303C93","spriteId":{"name":"obj_Crystal","path":"sprites/obj_Crystal/obj_Crystal.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":108.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_39707BD5","spriteId":{"name":"obj_Crystal","path":"sprites/obj_Crystal/obj_Crystal.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":585.0,"y":73.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_18CAB06B","spriteId":{"name":"obj_Crystal","path":"sprites/obj_Crystal/obj_Crystal.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":173.0,},
@@ -86,6 +85,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C465A54","properties":[],"isDnd":false,"objectId":{"name":"obj_shooterR","path":"objects/obj_shooterR/obj_shooterR.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.7416439,"scaleY":0.9375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":313.0,"y":87.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_453B7E61","properties":[],"isDnd":false,"objectId":{"name":"obj_shooterR","path":"objects/obj_shooterR/obj_shooterR.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":733.0,"y":162.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17A8C566","properties":[],"isDnd":false,"objectId":{"name":"obj_shooterR","path":"objects/obj_shooterR/obj_shooterR.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5625,"scaleY":0.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":72.0,"y":185.25,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1CE90016","properties":[],"isDnd":false,"objectId":{"name":"obj_teleporter","path":"objects/obj_teleporter/obj_teleporter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":101.0,"y":268.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":33,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
@@ -155,6 +155,7 @@
     {"name":"inst_C465A54","path":"rooms/Level6/Level6.yy",},
     {"name":"inst_453B7E61","path":"rooms/Level6/Level6.yy",},
     {"name":"inst_17A8C566","path":"rooms/Level6/Level6.yy",},
+    {"name":"inst_1CE90016","path":"rooms/Level6/Level6.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
